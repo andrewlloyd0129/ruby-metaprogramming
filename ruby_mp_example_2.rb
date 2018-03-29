@@ -8,6 +8,8 @@ class String
   end
 end
 
+p "The bunny was in trouble with the king's bunny".censor("trouble")
+
 p "The bunny was in trouble with the king's bunny".censor("bunny")
 
 p "The bunny was in trouble with the king's bunny".num_of_chars
